@@ -42,6 +42,7 @@ const reducer = (state, action) => {
         case "SUBTRACT":
             state = state - action.payload;
             break;
+
     }
 
     return state;
